@@ -1,8 +1,9 @@
-'use strict';
+"use strict";
 
-$(function() {
-  $('p').on('click dblclick', function() {
-   $(this).css('background-color', 'blue');
-  });
-  $("p").off('click');
+$(function () {
+  $("#circle").animate(
+    { marginLeft: "700px", marginTop: "150px", borderRadius: "0" },
+    { duration: 3000, 
+      easing: 'swing'}
+  );
 });
