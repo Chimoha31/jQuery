@@ -1,5 +1,8 @@
 'use strict';
 
-$(document).ready(function() {
-  alert('This is test');
+$(function() {
+ $(".test2").css('color', 'red');
+ $('#child').css({"color": "green", "background-color": "#ccc", "padding": "10px"});
+//  $("#child").css("color", 'green');
+//  $("#child").css("background-color", '#ccc');
 });
