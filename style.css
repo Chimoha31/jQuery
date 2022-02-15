@@ -1,6 +1,29 @@
-#circle {
-  width: 200px;
-  height: 200px;
-  background-color: red;
-  border-radius: 50%;
+.panel{
+  width: 500px;
+}
+
+.panel > .title {
+  width: 500px;
+  height: 20px;
+  margin-top: 7px;
+  background-color: cadetblue;
+  cursor: pointer;
+  padding: 7px;
+  font-weight: bold;
+}
+
+.panel > p {
+  display: none;
+  width: 500px;
+  margin: 0 0 20px 0;
+  padding: 7px;
+  background-color: pink;
+}
+
+.show {
+ display: block;
+}
+
+.hide {
+  display: none;
 }
