@@ -1,4 +1,28 @@
-p {
+/* on & off*/
+/* p {
   font-size: 1.5rem;
   padding: 10px;
+} */
+
+/* function */
+.box1 {
+  width: 500px;
+  height: 50px;
+  color: white;
+  background-color: blue;
+  font-weight: bold;
+}
+.box2 {
+  width: 500px;
+  height: 50px;
+  color: white;
+  background-color: red;
+  font-weight: bold;
+}
+.box3 {
+  width: 500px;
+  height: 50px;
+  color: white;
+  background-color: green;
+  font-weight: bold;
 }
