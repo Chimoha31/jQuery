@@ -1,0 +1,67 @@
+nav {
+  width: 100%;
+}
+
+/* main menuの設定 */
+ul.main_menu {
+  margin-top: 0;
+  padding: 0;
+  background-color:burlywood;
+}
+
+ul.main_menu li {
+  width: 25%;
+  float: left;
+  list-style: none;
+  position: relative;
+}
+ul.main_menu a {
+  background-color:burlywood;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+}
+ul.main_menu a:hover {
+  background-color:rgb(219, 212, 202);
+  color: black;
+}
+
+/* Sub menuの設定 */
+ul.main_menu ul {
+  display: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+ul.main_menu ul li {
+  width: 100%;
+  border-top: 1px solid pink;
+}
+
+ul.main_menu ul li a {
+  line-height: 35px;
+  text-align: left;
+  padding-left: 5px;
+  font-weight: normal;
+}
+
+ul.main_menu ul li a:hover {
+  background-color:rgb(219, 212, 202);
+  color: black;
+}
+
+/* 孫 menuの設定 */
+ul.main_menu ul ul {
+  display: none;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  top: -1px;
+  left: 100%;
+  border-left: 1px solidi pink;
+}
