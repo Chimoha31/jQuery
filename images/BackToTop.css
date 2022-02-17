@@ -9,9 +9,14 @@ body {
   right: 30px;
   width: 64px;
   height: 64px;
+  border-radius: 50%;
+  background-color: burlywood;
+  box-shadow: 3px 3px 3px rgba(61, 60, 60, 0.5);
+  font-size: 18px;
+  border: none;
+  display: none;
   z-index: 9999;
   cursor: pointer;
-  text-decoration: none;
   transition: opacity 0.2s ease-out;
  }
  
